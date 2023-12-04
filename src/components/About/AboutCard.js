@@ -8,23 +8,41 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Soumyajit Behera </span>
-            from <span className="purple"> Bhubaneswar, India.</span>
+            Hi Everyone, I am <span className="purple">Takeshi Suzuki </span>
+            from <span className="purple"> Toronto, Canada.</span>
+            <br />I am a result-oriented{" "}
+            <span className="purple">senior software engineer</span> with 7
+            years of professional experience in{" "}
+            <span className="purple">web development</span>
             <br />
-            I am currently employed as a software developer at Juspay.
+            Expert in{" "}
+            <span className="purple">
+              Typescript, Node.js, React.js, Angular, Nest.js, Express.js,
+              PostgreSQL,{" "}
+            </span>
+            and <span className="purple">MongoDB</span>.
             <br />
-            I have completed Integrated MSc (IMSc) in Maths and Computing at BIT
-            Mesra.
+            Proficient in using various programming languages, including{" "}
+            <span className="purple">Python, PHP, C#, Ruby on Rails</span>, and
+            <span className="purple"> Django</span>.
             <br />
+            Experience with DevOps Technologies including{" "}
+            <span className="purple">AWS, GCP, Docker</span> and{" "}
+            <span className="purple">CI/CD</span>.
             <br />
-            Apart from coding, some other activities that I love to do!
+            Adheres to best practices, produces clean, maintainable code, and
+            meets deadlines.
+            <br />
+            Able to effectively self-manage on independent projects and
+            collaborate well in a team environment.
+            <br />
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> Marathon
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
+              <ImPointRight /> Fishing
             </li>
             <li className="about-activity">
               <ImPointRight /> Travelling
@@ -32,9 +50,10 @@ function AboutCard() {
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+            "If you do a few things incredibly well, the rest doesn't really
+            matter."{" "}
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          <footer className="blockquote-footer">I believe</footer>
         </blockquote>
       </Card.Body>
     </Card>

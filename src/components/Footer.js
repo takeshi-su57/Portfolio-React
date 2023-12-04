@@ -1,11 +1,12 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import {
-  AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
-} from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+  FaLinkedinIn,
+  FaTelegram,
+  FaDiscord,
+  FaGithub,
+  FaMailBulk,
+} from "react-icons/fa";
 
 function Footer() {
   let date = new Date();
@@ -14,51 +15,61 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>Designed and Developed by Soumyajit Behera</h3>
+          <h3>Designed and Developed by Takeshi Suzuki</h3>
         </Col>
         <Col md="4" className="footer-copywright">
           <h3>Copyright © {year} SB</h3>
         </Col>
         <Col md="4" className="footer-body">
-          <ul className="footer-icons">
+          <ul className="home-about-social-links">
             <li className="social-icons">
               <a
-                href="https://github.com/soumyajit4419"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
+                href="https://github.com/takeshi-su57"
+                target="_blank"
+                rel="noreferrer"
+                className="icon-colour  home-social-icons"
               >
-                <AiFillGithub />
+                <FaGithub />
               </a>
             </li>
             <li className="social-icons">
               <a
-                href="https://twitter.com/Soumyajit4419"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
+                href="mailto:takeshi.suzuki61@gmail.com"
+                target="_blank"
+                rel="noreferrer"
+                className="icon-colour  home-social-icons"
               >
-                <AiOutlineTwitter />
+                <FaMailBulk />
               </a>
             </li>
             <li className="social-icons">
               <a
-                href="https://www.linkedin.com/in/soumyajit4419/"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
+                href="https://www.linkedin.com/in/takeshi-suzuki-449636248/"
+                target="_blank"
+                rel="noreferrer"
+                className="icon-colour  home-social-icons"
               >
                 <FaLinkedinIn />
               </a>
             </li>
             <li className="social-icons">
               <a
-                href="https://www.instagram.com/soumyajit4419"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
+                href="https://t.me/dia7552"
+                target="_blank"
+                rel="noreferrer"
+                className="icon-colour home-social-icons"
               >
-                <AiFillInstagram />
+                <FaTelegram />
+              </a>
+            </li>
+            <li className="social-icons">
+              <a
+                href="https://discord.com/users/dia7552"
+                target="_blank"
+                rel="noreferrer"
+                className="icon-colour home-social-icons"
+              >
+                <FaDiscord />
               </a>
             </li>
           </ul>

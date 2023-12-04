@@ -11,6 +11,8 @@ import {
   DiJava,
 } from "react-icons/di";
 import {
+  SiTypescript,
+  SiReact,
   SiRedis,
   SiFirebase,
   SiNextdotjs,
@@ -22,6 +24,12 @@ import { TbBrandGolang } from "react-icons/tb";
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTypescript />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiReact />
+      </Col>
       <Col xs={4} md={2} className="tech-icons">
         <CgCPlusPlus />
       </Col>

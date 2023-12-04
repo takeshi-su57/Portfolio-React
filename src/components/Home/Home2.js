@@ -3,11 +3,12 @@ import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
 import {
-  AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
-} from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+  FaLinkedinIn,
+  FaTelegram,
+  FaDiscord,
+  FaGithub,
+  FaMailBulk,
+} from "react-icons/fa";
 
 function Home2() {
   return (
@@ -19,22 +20,20 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              Software engineering is a part of my life and an innate ability.
+              Just solving a problem, analyzing complex architecture, or
+              reviewing clean code gives me pleasure.
               <br />
-              <br />I am fluent in classics like
+              <br />I am expert in
               <i>
-                <b className="purple"> C++, Javascript and Go. </b>
+                <b className="purple"> Typescript, Node.js and Python. </b>
               </i>
               <br />
               <br />
               My field of Interest's are building new &nbsp;
               <i>
                 <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Blockchain.
-                </b>
+                also in areas related to <b className="purple">Blockchain.</b>
               </i>
               <br />
               <br />
@@ -48,7 +47,7 @@ function Home2() {
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> React.js and Next.js</b>
+                <b className="purple"> React.js, Next.js, Angular, and Vue</b>
               </i>
             </p>
           </Col>
@@ -67,27 +66,27 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/takeshi-su57"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
-                  <AiFillGithub />
+                  <FaGithub />
                 </a>
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
+                  href="mailto:takeshi.suzuki61@gmail.com"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
-                  <AiOutlineTwitter />
+                  <FaMailBulk />
                 </a>
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/takeshi-suzuki-449636248/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -97,12 +96,22 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/soumyajit4419"
+                  href="https://t.me/dia7552"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
                 >
-                  <AiFillInstagram />
+                  <FaTelegram />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://discord.com/users/dia7552"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons"
+                >
+                  <FaDiscord />
                 </a>
               </li>
             </ul>
