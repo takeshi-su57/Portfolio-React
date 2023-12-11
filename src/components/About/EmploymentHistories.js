@@ -44,7 +44,7 @@ function EmploymentHistories() {
       role: "Senior Web & Mobile Engineer",
       company: "TechGropse",
       companyUrl: "https://www.techgropse.com/",
-      period: "December 2020 — August 2022 (1year 9 months)",
+      period: "December 2019 — August 2021 (1year 9 months)",
       summary:
         "Recruited by Founder/CEO to scale engineering team of startup building high-performance and visually appealing software following B-round funding.",
       achievements: [
@@ -71,7 +71,7 @@ function EmploymentHistories() {
       role: "Full stack Vue.js & Node.js Engineer",
       company: "Hilo Labs",
       companyUrl: "https://hilolabs.com/",
-      period: "July 2019 — October 2020 (1year 2months)",
+      period: "July 2018 — October 2019 (1year 2months)",
       summary:
         "Hilo Labs is a startup focused on web, blockchain, and AI development. Joined the Bonzo development team and built an SMS marketing platform.",
       achievements: [
@@ -105,7 +105,7 @@ function EmploymentHistories() {
       role: "Frontend Developer",
       company: "LeadAction",
       companyUrl: "https://leadaction.com/",
-      period: "January 2019 — June 2019 (6 months)",
+      period: "January 2018 — June 2018 (6 months)",
       summary:
         "LeadAction is a SaaS solution for helping gyms close more leads with powerful text/SMS, email and sales automation.",
       achievements: [
@@ -131,7 +131,7 @@ function EmploymentHistories() {
       role: "Junior Software Developer",
       company: "Senda Japan Ltd",
       companyUrl: "http://www.sendajapan.com/",
-      period: "August 2016 — January 2019 (2years 5months)",
+      period: "August 2015 — January 2018 (2years 5months)",
       summary:
         "Senda Japan Ltd is a digital creative IT agency that has successfully completed numerous projects for clients across a variety of business sectors.",
       achievements: [
